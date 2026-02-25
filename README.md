@@ -132,8 +132,7 @@ If you are contributing or customizing:
 #### 1. Clone the repository
 
 
-git clone https://github.com/
-<your-org>/waiq.git
+git clone https://github.com/work365apps/waiq.git
 cd waiq
 
 
