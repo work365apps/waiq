@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{264611d2-da8a-4e9e-88a0-589ad27af483}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{34111633-4f89-4bf7-bf69-8de658733845}" IsUserDefined="1" name="tab_general" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{635594b4-328b-4074-9f2e-fe74eca66b2e}" columns="1" name="{635594b4-328b-4074-9f2e-fe74eca66b2e}" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{27a8551a-313b-454d-842f-07781174f24d}" colspan="1" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="iotap_name" uniqueid="{d1cb02ba-23c9-d27b-1029-7247037e2d52}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e59a715f-e502-4440-8505-dc6a30256539}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Strategic Weight" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_strategicweight" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="iotap_strategicweight" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{397b4b1c-36eb-4a12-8bc0-c67926ca208a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Head Count" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_headcount" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="iotap_headcount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{104ff027-3287-422f-87da-cf0476ac331c}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="tab_4_section_1" id="c9657d93-f97f-4096-80fc-842697f89941" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{cb4274f3-7222-4151-a804-b4a90bada72d}" rowspan="11" colspan="1" showlabel="true" auto="false">
+                        <labels>
+                          <label description="Assessments" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="subgrid_assessment" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" uniqueid="{70beae42-b8ab-7032-2010-e6a57e158070}">
+                          <parameters>
+                            <RecordsPerPage>8</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>iotap_aiqassessment_department_iotap_aiqdepartment</RelationshipName>
+                            <TargetEntityType>iotap_aiqassessment</TargetEntityType>
+                            <ViewId>{95BA9317-501E-438A-89A9-5740AF967343}</ViewId>
+                            <ViewIds>{95BA9317-501E-438A-89A9-5740AF967343}</ViewIds>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row></row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section name="tab_2_section_1" id="7a2bcf16-93dc-4b05-b643-98ac8b62132e" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{7cce5054-355d-4c02-8d30-decd7190b713}" rowspan="10" colspan="1" auto="false" showlabel="true">
+                        <labels>
+                          <label description="Indicators" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="subgrid_indicator" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" uniqueid="{b1cd1932-44cd-367e-e9ae-d72e132c3891}">
+                          <parameters>
+                            <RecordsPerPage>7</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>iotap_aiqindicator_department_iotap_aiqdepartment</RelationshipName>
+                            <TargetEntityType>iotap_aiqindicator</TargetEntityType>
+                            <ViewId>{C2979ED3-EAA9-401E-9D32-9BACCD81B32C}</ViewId>
+                            <ViewIds>{C2979ED3-EAA9-401E-9D32-9BACCD81B32C}</ViewIds>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="tab_general_section_2" showlabel="false" showbar="false" locklevel="0" id="{c02706d4-6249-717e-5603-0c290e7a6eb5}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{2ed73307-588a-47a6-9200-5aa59834596c}" rowspan="7" colspan="1" auto="false" showlabel="true">
+                        <labels>
+                          <label description="Actions" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="subgrid_action" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" uniqueid="{c960b743-2b18-26de-6d8d-2e5e493a33a8}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>iotap_aiqdepartment_iotap_aiqdepartment_iotap_aiqaction</RelationshipName>
+                            <TargetEntityType>iotap_aiqaction</TargetEntityType>
+                            <ViewId>{EA45A8E2-E16C-4DCC-B953-976C64FE4394}</ViewId>
+                            <ViewIds>{EA45A8E2-E16C-4DCC-B953-976C64FE4394}</ViewIds>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{96e9cb83-bc01-4bb4-bc62-8c14e52cf2a6}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{0840e17b-a398-4aa7-af08-b5ef520dfbc9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0269823c-02f3-4245-ba2b-ebf297485bbc}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{72ae8375-bdd9-4c9c-b60e-56e28dc5f90d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{baf4099b-6e37-4fda-aa3b-275086e6fb83}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{de00ad93-71e0-4710-8671-e471a7d6b353}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3cd0c32f-8768-4653-ac2d-39fc61e8e841}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e4bf06a0-4733-490b-9bb5-671962e33f6a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

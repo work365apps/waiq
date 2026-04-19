@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.26042.139" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.26042.139" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.26042.00139">
+  <SolutionManifest>
+    <UniqueName>Work365AIQ</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Work 365 AIQ" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Most organizations have started experimenting with AI, but few can answer the harder questions: Which departments are truly benefiting? Where are the gaps? How do we move from one-off pilots to real, measurable outcomes? WAIQ was built to answer those questions.&#xA;&#xA;WAIQ is a structured AI maturity app built on Microsoft Power Platform that gives your leadership team a clear, consistent picture of how AI is being adopted across every department — and a concrete action plan to improve it every quarter.&#xA;" languagecode="1033" />
+    </Descriptions>
+    <Version>1.0.0.2</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>IOTAP</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="IOTAP" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>iotap</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>23341</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="iotap_aiqaction" behavior="0" />
+      <RootComponent type="1" schemaName="iotap_aiqassessment" behavior="0" />
+      <RootComponent type="1" schemaName="iotap_aiqdepartment" behavior="0" />
+      <RootComponent type="1" schemaName="iotap_aiqdimension" behavior="0" />
+      <RootComponent type="1" schemaName="iotap_aiqindicator" behavior="0" />
+      <RootComponent type="1" schemaName="iotap_aiqscore" behavior="0" />
+      <RootComponent type="1" schemaName="iotap_datasource" behavior="0" />
+      <RootComponent type="1" schemaName="iotap_period" behavior="0" />
+      <RootComponent type="1" schemaName="iotap_scorecard" behavior="0" />
+      <RootComponent type="20" id="{005c6f40-6c7e-f011-b4cc-000d3a8e22fd}" behavior="0" />
+      <RootComponent type="20" id="{7f7f2575-6d7e-f011-b4cc-000d3a8e22fd}" behavior="0" />
+      <RootComponent type="20" id="{917ad1de-6c7e-f011-b4cc-000d3a8e22fd}" behavior="0" />
+      <RootComponent type="20" id="{d80c97ce-6d7e-f011-b4cc-6045bda9c8c9}" behavior="0" />
+      <RootComponent type="29" id="{a09a7b70-b588-f011-b4cc-000d3a8e22fd}" behavior="0" />
+      <RootComponent type="29" id="{b04b0f1b-b481-f011-b4cc-000d3a8e22fd}" behavior="0" />
+      <RootComponent type="29" id="{cf1df83f-bd81-f011-b4cc-000d3a8e22fd}" behavior="0" />
+      <RootComponent type="61" schemaName="iotap_actions" behavior="0" />
+      <RootComponent type="61" schemaName="iotap_assessments" behavior="0" />
+      <RootComponent type="61" schemaName="iotap_datasource" behavior="0" />
+      <RootComponent type="61" schemaName="iotap_departments" behavior="0" />
+      <RootComponent type="61" schemaName="iotap_dimensions" behavior="0" />
+      <RootComponent type="61" schemaName="iotap_indicators" behavior="0" />
+      <RootComponent type="61" schemaName="iotap_periods" behavior="0" />
+      <RootComponent type="61" schemaName="iotap_scorecards" behavior="0" />
+      <RootComponent type="61" schemaName="iotap_scores" behavior="0" />
+      <RootComponent type="61" schemaName="iotap_waiq" behavior="0" />
+      <RootComponent type="62" schemaName="iotap_Work365AIQuotient" behavior="0" />
+      <RootComponent type="80" schemaName="iotap_Work365AIQuotient" behavior="0" />
+      <RootComponent type="9" schemaName="iotap_actionstatusoptionset" behavior="0" />
+      <RootComponent type="9" schemaName="iotap_actiontypeoptionset" behavior="0" />
+      <RootComponent type="9" schemaName="iotap_metricyypeoptionset" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="66" schemaName="Microsoft.PowerApps.PowerAppsOneGrid" displayName="Microsoft.PowerApps.PowerAppsOneGrid" solution="BaseCustomControlsCore (9.0.2604.2008)">
+          <package appName="Base Custom Controls" version="9.0.2604.2008">BaseCustomControlsCore (9.0.2604.2008)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Assessment" id="{ee715c87-51ae-41f9-bf7d-0c6b70040537}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.PCFGridControl" displayName="MscrmControls.Grid.PCFGridControl" solution="BaseCustomControlsCore (9.0.2604.2008)">
+          <package appName="Base Custom Controls" version="9.0.2604.2008">BaseCustomControlsCore (9.0.2604.2008)</package>
+        </Required>
+        <Dependent type="26" schemaName="Assesment Scores" displayName="Assesment Scores" parentSchemaName="iotap_aiqscore" parentDisplayName="Score" id="{8d6bda90-9888-f011-b4cc-6045bda9c8c9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.PCFGridControl" displayName="MscrmControls.Grid.PCFGridControl" solution="BaseCustomControlsCore (9.0.2604.2008)">
+          <package appName="Base Custom Controls" version="9.0.2604.2008">BaseCustomControlsCore (9.0.2604.2008)</package>
+        </Required>
+        <Dependent type="26" schemaName="AIQ Score Associated View" displayName="AIQ Score Associated View" parentSchemaName="iotap_aiqscore" parentDisplayName="Score" id="{f39ab430-39a1-4fba-8a84-c43ce61957e7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.16)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.25">PowerAppsAppFramework_Anchor (1.0.0.25)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=iotap_Work365AIQuotient,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="iotap_Work365AIQuotient" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

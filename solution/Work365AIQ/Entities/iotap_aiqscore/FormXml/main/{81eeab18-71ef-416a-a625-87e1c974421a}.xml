@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{81eeab18-71ef-416a-a625-87e1c974421a}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{326cae35-857c-4f94-8fa5-2cb087cb0319}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{8b49c63f-75a3-414f-bba4-1fee8daf29ab}" columns="11">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{fb0ecc96-654d-471e-adfe-bcafe3b05f27}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Assessment" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_assessment" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="iotap_assessment" disabled="false" />
+                      </cell>
+                      <cell id="{52c87b4d-d93e-4d6b-ae64-e5c2acf845c4}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Dimension" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_dimension" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="iotap_dimension" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a6d41c0a-1fb3-4c5c-93c1-5768788b4411}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Raw Score" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_rawscore" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="iotap_rawscore" disabled="false" />
+                      </cell>
+                      <cell id="{19440476-8128-4440-a305-62ab00e2a16d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Weighted Score" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_weightedscore" classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}" datafieldname="iotap_weightedscore" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{875afa9c-cfad-4a0f-951c-49fe4f573a83}" locklevel="0" colspan="2" rowspan="5">
+                        <labels>
+                          <label description="Notes" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_notes" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="iotap_notes" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{97c1223e-1ed2-469b-b7bb-8baed0d53e97}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                      <cell locklevel="0" id="{3ec24784-ce1e-4ebd-98e3-34053ee4b367}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{4e542a67-03eb-4346-8ec4-2c0d82acc02d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{2d9a92f3-cb45-4615-a47f-f4da50ea90e3}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{cb351275-0fee-42bd-b3b3-3fce9909422e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{4812f829-7718-435f-b581-1c9ba691f5a2}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{c1e7204e-7dff-4c6f-8f95-ecd102e24c08}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{2d15c95d-9510-4b56-b4a0-d68ff387dbf5}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3c9e8e6f-b90f-4891-bfd2-2d9ccb549735}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{69810241-f236-44d0-bb78-f61436604e55}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

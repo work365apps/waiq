@@ -1,0 +1,1 @@
+iotap_finalscore: =iotap_rawscore.iotap_level * iotap_weightedscore

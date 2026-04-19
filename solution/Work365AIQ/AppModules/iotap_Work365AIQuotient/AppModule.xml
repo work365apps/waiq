@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>iotap_Work365AIQuotient</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>45401f6b-753a-f111-88b3-7c1e52fd471b</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="iotap_aiqaction" />
+    <AppModuleComponent type="1" schemaName="iotap_aiqassessment" />
+    <AppModuleComponent type="1" schemaName="iotap_aiqdepartment" />
+    <AppModuleComponent type="1" schemaName="iotap_aiqdimension" />
+    <AppModuleComponent type="1" schemaName="iotap_aiqindicator" />
+    <AppModuleComponent type="1" schemaName="iotap_aiqscore" />
+    <AppModuleComponent type="1" schemaName="iotap_datasource" />
+    <AppModuleComponent type="1" schemaName="iotap_period" />
+    <AppModuleComponent type="1" schemaName="iotap_scorecard" />
+    <AppModuleComponent type="62" schemaName="iotap_Work365AIQuotient" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Work 365 AIQ" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="WAIQ is a structured AI maturity app that gives your leadership team a clear, consistent picture of how AI is being adopted across every department — and a concrete action plan to improve it every quarter." languagecode="1033" />
+  </Descriptions>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+  </appsettings>
+</AppModule>

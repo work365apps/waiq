@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{1efc8060-91bc-4aff-acad-751f4602d6de}</savedqueryid>
+    <layoutxml>
+      <grid name="iotap_aiqactions" jump="iotap_name" select="1" icon="1" preview="0">
+        <row name="iotap_aiqaction" id="iotap_aiqactionid">
+          <cell name="iotap_name" width="300" />
+          <cell name="iotap_period" width="100" />
+          <cell name="iotap_aiqdepartment" width="135" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="iotap_aiqaction">
+          <attribute name="iotap_aiqactionid" />
+          <attribute name="iotap_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="iotap_aiqdepartment" />
+          <attribute name="iotap_period" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="AIQ Action Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{7670a5cb-2e74-4bad-be64-92953ac70e6b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="iotap_name" select="1" icon="1" preview="1">
+        <row name="result" id="iotap_aiqscoreid">
+          <cell name="iotap_assessment" width="107" />
+          <cell name="iotap_dimension" width="102" />
+          <cell name="iotap_rawscore" width="102" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="iotap_aiqscore">
+          <attribute name="iotap_aiqscoreid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="1" />
+          </filter>
+          <attribute name="iotap_assessment" />
+          <attribute name="iotap_dimension" />
+          <attribute name="iotap_rawscore" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Inactive AIQ Scores" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

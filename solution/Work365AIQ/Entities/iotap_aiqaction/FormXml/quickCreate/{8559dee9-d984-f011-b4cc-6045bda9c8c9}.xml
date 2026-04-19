@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{8559dee9-d984-f011-b4cc-6045bda9c8c9}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{92d1c59c-0efe-4cb6-9570-edc56e1666aa}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{0461342c-12e3-4863-949e-9a45dcc5404c}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="542FBFBE-0E4C-496C-8012-555DE6581923" labelid="{4f2a25c5-b19a-4708-bc8f-0c61b9c65975}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a82f57e9-c8e7-43d4-b013-b06c8c09dd8f}" locklevel="0" colspan="1" rowspan="1" labelid="{903ed858-df89-450f-979b-e9b413827ec1}">
+                        <labels>
+                          <label description="Assessment" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_assessment" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="iotap_assessment" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{71987e8c-d236-4687-9f18-f5e6e426016a}" locklevel="0" colspan="1" rowspan="1" labelid="{33ae9f6b-8c1f-4248-bad6-bc4461debdec}">
+                        <labels>
+                          <label description="Title" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_name" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="iotap_name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b03cd62f-710e-4b4e-8b86-792475fb1df3}" locklevel="0" colspan="1" rowspan="1" labelid="{6a761b97-ed41-41d8-9846-ecc13690927c}">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_type" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="iotap_type" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a1366ba8-f822-4f33-8881-85e9b8ff73ec}" locklevel="0" colspan="1" rowspan="1" labelid="{e3a4cfa8-6eb2-49a4-a8e9-4f2cec9a3980}">
+                        <labels>
+                          <label description="Due Date" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_duedate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="iotap_duedate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d1dca06d-b17c-4eb4-bb13-f2998678d2c6}" locklevel="0" colspan="1" rowspan="1" labelid="{5fd67e0b-4f1a-4718-9591-2b606a2a07f6}">
+                        <labels>
+                          <label description="Impact Estimate" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_impactestimate" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="iotap_impactestimate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d2573ddc-c480-4b67-8fb5-e88af2f5ff06}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Department" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_aiqdepartment" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="iotap_aiqdepartment" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ce99d7c2-5421-4605-8a28-ed39ec793656}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Period" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_period" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="iotap_period" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0b90f5da-c328-438a-864f-7d7e5beb9970}" locklevel="0" colspan="1" rowspan="4">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="iotap_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{d6fcda10-1576-4c79-b030-55681939b19d}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{47518f75-9c87-4aa5-a643-7bbbcb58235a}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{9cfd3c70-cacb-4158-97cb-4d7fa51711cc}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{22113281-b684-4c3f-acd2-60a497a7b9be}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="AIQ Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

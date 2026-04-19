@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{8d6bda90-9888-f011-b4cc-6045bda9c8c9}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="iotap_name" select="1" icon="1" preview="1">
+        <row name="result" id="iotap_aiqscoreid">
+          <cell name="iotap_dimension" width="150" />
+          <cell name="iotap_rawscore" width="102" />
+          <cell name="iotap_notes" width="300" />
+        </row>
+        <controlDescriptions>
+          <controlDescription>
+            <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+              <parameters />
+            </customControl>
+            <customControl formFactor="0" name="MscrmControls.Grid.PCFGridControl">
+              <parameters>
+                <data-set name="Items">
+                  <ViewId>00000000-0000-0000-0000-000000000000</ViewId>
+                </data-set>
+                <JumpBar static="true" type="Enum">Disable</JumpBar>
+                <ReflowBehavior static="true" type="Enum">ListOnly</ReflowBehavior>
+                <EnableFiltering static="true" type="Enum">Enable</EnableFiltering>
+                <EnableRangeSelection static="true" type="Enum">yes</EnableRangeSelection>
+                <NavigationTypesAllowed static="true" type="Enum">all</NavigationTypesAllowed>
+              </parameters>
+            </customControl>
+            <customControl formFactor="1" name="MscrmControls.Grid.PCFGridControl">
+              <parameters>
+                <data-set name="Items">
+                  <ViewId>00000000-0000-0000-0000-000000000000</ViewId>
+                </data-set>
+                <JumpBar static="true" type="Enum">Disable</JumpBar>
+                <ReflowBehavior static="true" type="Enum">ListOnly</ReflowBehavior>
+                <EnableFiltering static="true" type="Enum">Enable</EnableFiltering>
+                <EnableRangeSelection static="true" type="Enum">yes</EnableRangeSelection>
+                <NavigationTypesAllowed static="true" type="Enum">all</NavigationTypesAllowed>
+              </parameters>
+            </customControl>
+            <customControl formFactor="2" name="MscrmControls.Grid.PCFGridControl">
+              <parameters>
+                <data-set name="Items">
+                  <ViewId>00000000-0000-0000-0000-000000000000</ViewId>
+                </data-set>
+                <JumpBar static="true" type="Enum">Disable</JumpBar>
+                <ReflowBehavior static="true" type="Enum">ListOnly</ReflowBehavior>
+                <EnableFiltering static="true" type="Enum">Enable</EnableFiltering>
+                <EnableRangeSelection static="true" type="Enum">yes</EnableRangeSelection>
+                <NavigationTypesAllowed static="true" type="Enum">all</NavigationTypesAllowed>
+              </parameters>
+            </customControl>
+          </controlDescription>
+        </controlDescriptions>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="iotap_aiqscore">
+          <attribute name="iotap_aiqscoreid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="iotap_dimension" />
+          <attribute name="iotap_rawscore" />
+          <attribute name="iotap_notes" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Assesment Scores" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

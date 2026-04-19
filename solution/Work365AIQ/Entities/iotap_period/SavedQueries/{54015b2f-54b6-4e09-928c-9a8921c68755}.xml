@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{54015b2f-54b6-4e09-928c-9a8921c68755}</savedqueryid>
+    <layoutxml>
+      <grid name="iotap_periods" jump="iotap_name" select="1" icon="1" preview="0">
+        <row name="iotap_period" id="iotap_periodid">
+          <cell name="iotap_name" width="300" />
+          <cell name="iotap_startdate" width="100" />
+          <cell name="iotap_enddate" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="iotap_period">
+          <attribute name="iotap_periodid" />
+          <attribute name="iotap_name" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="iotap_startdate" />
+          <attribute name="iotap_enddate" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Period Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

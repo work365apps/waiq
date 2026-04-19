@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{95ba9317-501e-438a-89a9-5740af967343}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="iotap_name" select="1" icon="1" preview="1">
+        <row name="result" id="iotap_aiqassessmentid">
+          <cell name="iotap_name" width="150" />
+          <cell name="iotap_department" width="107" />
+          <cell name="iotap_period" width="100" />
+          <cell name="iotap_comment" width="300" />
+          <cell name="iotap_submittedon" width="115" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="iotap_aiqassessment">
+          <attribute name="iotap_aiqassessmentid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="iotap_period" />
+          <attribute name="iotap_department" />
+          <attribute name="iotap_submittedon" />
+          <attribute name="iotap_comment" />
+          <attribute name="iotap_name" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active AIQ Assessments" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

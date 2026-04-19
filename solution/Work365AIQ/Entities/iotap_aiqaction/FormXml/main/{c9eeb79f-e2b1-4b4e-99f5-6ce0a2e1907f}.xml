@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c9eeb79f-e2b1-4b4e-99f5-6ce0a2e1907f}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{43f327fb-07b2-4aa4-ad60-8de227f0dcd6}" IsUserDefined="1" name="tab_general">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{977fd263-1024-4b46-adeb-17fb95222fa5}" columns="11">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{1049e819-8123-465f-86ed-a71a7191d5b3}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Assessment" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_assessment" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="iotap_assessment" disabled="false" />
+                      </cell>
+                      <cell id="{7a21b46d-3414-4cdd-a853-18b8c4b90a66}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Title" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="iotap_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0e50b64f-a32c-4108-83db-7e5237dc3979}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Type" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_type" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="iotap_type" disabled="false" />
+                      </cell>
+                      <cell id="{035f430e-cbce-4cdc-b2d1-dc90b1d86ac5}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Due Date" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_duedate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="iotap_duedate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9b178aa7-d8c3-43c0-affe-8f75927322ac}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Impact Estimate" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_impactestimate" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="iotap_impactestimate" disabled="false" />
+                      </cell>
+                      <cell id="{8bbd8b4e-f1ad-4443-a364-ef0a1cd91a04}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Department" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_aiqdepartment" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="iotap_aiqdepartment" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{89efcb81-9a5a-4559-8ce5-2c025f95a870}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Period" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_period" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="iotap_period" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{35f4cfae-f33d-4166-87f9-9f56db122e79}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{abcde36b-9985-41ba-bffc-d22aa00f38dc}" locklevel="0" colspan="2" rowspan="4">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="iotap_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_hidden" id="e3f646d3-4178-46b8-a802-4150c9a686cc" IsUserDefined="0" locklevel="0" showlabel="true" visible="false">
+          <labels>
+            <label description="Hidden" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="tab_2_section_1" id="b53f302c-845d-4007-83df-220ce5ce372f" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{7c27427c-0da5-466b-8021-2f5226e9dfa2}" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_2_section_2" id="d5e00bed-c37b-4644-9524-5f441660fa08" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{cba69595-7499-49b2-876a-0b912a802ba5}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{90d1b91d-7e49-4df0-a106-86918a7fdfa6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d7b609cc-a55b-4efa-b617-4147f3368c51}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f6d48101-69c7-459c-b2f2-6102a8514219}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f80711ab-fc2f-4731-9f93-f92b64cbd71b}" locklevel="0" colspan="1" rowspan="1">
+              <labels>
+                <label description="Status" languagecode="1033" />
+              </labels>
+              <control id="header_statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{623232c9-ccb0-4be1-99d2-1327649a6dd2}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{d373d67c-efc3-486f-af6d-c59be43d7410}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a7c15254-d96f-42db-800f-f3711c4b8a5b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3fb9ef60-d409-43bc-9bc2-0bd99b7987ac}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

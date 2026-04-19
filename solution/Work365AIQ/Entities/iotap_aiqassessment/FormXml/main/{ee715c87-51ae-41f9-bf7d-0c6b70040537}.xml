@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ee715c87-51ae-41f9-bf7d-0c6b70040537}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{9961f886-e256-4b53-a2be-fa276ab5680f}" IsUserDefined="1" name="tab_general" locklevel="0" expanded="true" showlabel="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ebc0defe-ea71-40f6-aee6-74335257638e}" columns="1" name="tab_general_section_general" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7a7a23d7-9c89-4030-9d61-5af920bca390}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Period" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_period" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="iotap_period" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{848a25b4-8f57-4235-a864-aa64f733b0e9}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Department" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_department" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="iotap_department" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1cc0a833-412e-45c8-9edb-0953990666fe}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Submitted On" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_submittedon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="iotap_submittedon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6d1421ad-b50e-c247-d730-227432444b27}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Score" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_score" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="iotap_score" disabled="false" uniqueid="{033e5632-60c7-c325-b900-954c7894d897}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7a4c2ab1-6e0b-4229-82a2-0729577f5c78}" locklevel="0" colspan="1" rowspan="10">
+                        <labels>
+                          <label description="Comment" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_comment" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="iotap_comment" disabled="false" uniqueid="{9541c6c4-95ac-1562-0147-7e740cc1c93c}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="66%">
+              <sections>
+                <section name="tab_general_section_scores" showlabel="false" showbar="false" locklevel="0" id="{852aadbc-b6ca-8320-895a-7d4533aeb80d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Scores" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{02d8efb8-e20a-4189-a607-22cbf791ee95}" rowspan="7" colspan="1" auto="false" showlabel="true">
+                        <labels>
+                          <label description="Scores" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="subgrid_score" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{ca21d70d-e7de-4cc2-8d02-8c624e4bdb0b}">
+                          <parameters>
+                            <RecordsPerPage>5</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>iotap_aiqscore_assessment_iotap_aiqassessment</RelationshipName>
+                            <TargetEntityType>iotap_aiqscore</TargetEntityType>
+                            <ViewId>{8D6BDA90-9888-F011-B4CC-6045BDA9C8C9}</ViewId>
+                            <ViewIds>{A500BB44-3702-40C4-AF8D-F1E478EBD99F},{8D6BDA90-9888-F011-B4CC-6045BDA9C8C9}</ViewIds>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="tab_general_section_actions" showlabel="false" showbar="false" locklevel="0" id="{19195e8b-2641-e77d-3482-74a266ccb114}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Actions" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{bb253e71-10a8-4558-8bfd-2449cf19b22b}" rowspan="8" colspan="1" auto="false" showlabel="true">
+                        <labels>
+                          <label description="Actions" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="subgrid_action" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" uniqueid="{0b0ab85e-319e-642c-67bb-3a8485558136}">
+                          <parameters>
+                            <RecordsPerPage>5</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>iotap_aiqaction_assessment_iotap_aiqassessment</RelationshipName>
+                            <TargetEntityType>iotap_aiqaction</TargetEntityType>
+                            <ViewId>{EA45A8E2-E16C-4DCC-B953-976C64FE4394}</ViewId>
+                            <ViewIds>{EA45A8E2-E16C-4DCC-B953-976C64FE4394}</ViewIds>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_hidden" id="5fab45d2-e6ec-4e77-8522-332946be05b3" IsUserDefined="0" locklevel="0" showlabel="true" visible="false">
+          <labels>
+            <label description="Hidden" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="tab_3_section_1" id="91ab170b-6660-4731-9d92-1949f67cbcb8" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{08c4f515-0c12-405b-9221-09ced57916f4}" visible="false" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_3_section_2" id="775f1472-cc95-4b14-bd88-3d62c3d16095" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{85ea5ade-0e64-4eed-83c7-c2ffbf35f253}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{0670f503-abff-4ab9-9395-75ce446ecbf4}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{60d27173-e435-45a2-a41f-49dbe4a74481}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{91d0672c-3ee3-473b-bc6e-44fd1587eec3}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{5996d017-5d67-e967-a9e7-ab37b63d5de6}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Status Reason" languagecode="1033" />
+              </labels>
+              <control id="header_statuscode" classid="{5D68B988-0661-4db2-BC3E-17598AD3BE6C}" datafieldname="statuscode" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{d620c5c6-2869-4033-b355-4f6a2471056d}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{57550fc4-b631-45e5-86eb-9c189c5c95fe}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{358edbbc-798b-459f-9d0b-7cb8b32bdfda}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9bb0828d-7c29-4dd4-b347-9841e0d50e1e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{ca21d70d-e7de-4cc2-8d02-8c624e4bdb0b}">
+          <customControl id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+            <parameters>
+              <RecordsPerPage>5</RecordsPerPage>
+              <AutoExpand>Fixed</AutoExpand>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableViewPicker>false</EnableViewPicker>
+              <EnableChartPicker>true</EnableChartPicker>
+              <ChartGridMode>All</ChartGridMode>
+              <RelationshipName>iotap_aiqscore_assessment_iotap_aiqassessment</RelationshipName>
+              <TargetEntityType>iotap_aiqscore</TargetEntityType>
+              <ViewId>{8D6BDA90-9888-F011-B4CC-6045BDA9C8C9}</ViewId>
+              <ViewIds>{A500BB44-3702-40C4-AF8D-F1E478EBD99F},{8D6BDA90-9888-F011-B4CC-6045BDA9C8C9}</ViewIds>
+              <HeaderColorCode>#F3F3F3</HeaderColorCode>
+              <IsUserView>false</IsUserView>
+              <EnableJumpBar>false</EnableJumpBar>
+              <IsUserChart>false</IsUserChart>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="Microsoft.PowerApps.PowerAppsOneGrid">
+            <parameters>
+              <data-set name="Items">
+                <ViewId>{8d6bda90-9888-f011-b4cc-6045bda9c8c9}</ViewId>
+                <TargetEntityType>iotap_aiqscore</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>iotap_aiqscore_assessment_iotap_aiqassessment</RelationshipName>
+                <FilteredViewIds>{A500BB44-3702-40C4-AF8D-F1E478EBD99F},{8D6BDA90-9888-F011-B4CC-6045BDA9C8C9}</FilteredViewIds>
+              </data-set>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <DisableChildItemsEditing type="Enum" static="true">no</DisableChildItemsEditing>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <EnableSorting type="Enum" static="true">yes</EnableSorting>
+              <EnableGrouping type="Enum" static="true">no</EnableGrouping>
+              <EnableAggregation type="Enum" static="true">no</EnableAggregation>
+              <EnableColumnMoving type="Enum" static="true">no</EnableColumnMoving>
+              <EnableMultipleSelection type="Enum" static="true">yes</EnableMultipleSelection>
+              <EnableRangeSelection type="Enum" static="true">yes</EnableRangeSelection>
+              <EnableJumpBar type="Enum" static="true">no</EnableJumpBar>
+              <EnablePagination type="Enum" static="true">no</EnablePagination>
+              <EnableDropdownColor type="Enum" static="true">no</EnableDropdownColor>
+              <EnableStatusIcons type="Enum" static="true">yes</EnableStatusIcons>
+              <EnableTypeIcons type="Enum" static="true">no</EnableTypeIcons>
+              <NavigationTypesAllowed type="Enum" static="true">all</NavigationTypesAllowed>
+              <ReflowBehavior type="Enum" static="true">Reflow</ReflowBehavior>
+              <ShowAvatar type="Enum" static="true">yes</ShowAvatar>
+              <ShowFooter type="Enum" static="true">yes</ShowFooter>
+              <ShowColumnHeaders type="Enum" static="true">yes</ShowColumnHeaders>
+              <ContextualLookupColumnFilters type="Enum" static="true">yes</ContextualLookupColumnFilters>
+              <LookupFilterBeginsWith type="Enum" static="true">no</LookupFilterBeginsWith>
+              <UseFirstColumnForLookupEdits type="Enum" static="true">no</UseFirstColumnForLookupEdits>
+              <DateTimeFormat type="Enum" static="true">none</DateTimeFormat>
+              <DateOnlyFormat type="Enum" static="true">none</DateOnlyFormat>
+              <EnableStatusColumn type="Enum" static="true">yes</EnableStatusColumn>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="Microsoft.PowerApps.PowerAppsOneGrid">
+            <parameters>
+              <data-set name="Items">
+                <ViewId>{8d6bda90-9888-f011-b4cc-6045bda9c8c9}</ViewId>
+                <TargetEntityType>iotap_aiqscore</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>iotap_aiqscore_assessment_iotap_aiqassessment</RelationshipName>
+                <FilteredViewIds>{A500BB44-3702-40C4-AF8D-F1E478EBD99F},{8D6BDA90-9888-F011-B4CC-6045BDA9C8C9}</FilteredViewIds>
+              </data-set>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <DisableChildItemsEditing type="Enum" static="true">no</DisableChildItemsEditing>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <EnableSorting type="Enum" static="true">yes</EnableSorting>
+              <EnableGrouping type="Enum" static="true">no</EnableGrouping>
+              <EnableAggregation type="Enum" static="true">no</EnableAggregation>
+              <EnableColumnMoving type="Enum" static="true">no</EnableColumnMoving>
+              <EnableMultipleSelection type="Enum" static="true">yes</EnableMultipleSelection>
+              <EnableRangeSelection type="Enum" static="true">yes</EnableRangeSelection>
+              <EnableJumpBar type="Enum" static="true">no</EnableJumpBar>
+              <EnablePagination type="Enum" static="true">no</EnablePagination>
+              <EnableDropdownColor type="Enum" static="true">no</EnableDropdownColor>
+              <EnableStatusIcons type="Enum" static="true">yes</EnableStatusIcons>
+              <EnableTypeIcons type="Enum" static="true">no</EnableTypeIcons>
+              <NavigationTypesAllowed type="Enum" static="true">all</NavigationTypesAllowed>
+              <ReflowBehavior type="Enum" static="true">Reflow</ReflowBehavior>
+              <ShowAvatar type="Enum" static="true">yes</ShowAvatar>
+              <ShowFooter type="Enum" static="true">yes</ShowFooter>
+              <ShowColumnHeaders type="Enum" static="true">yes</ShowColumnHeaders>
+              <ContextualLookupColumnFilters type="Enum" static="true">yes</ContextualLookupColumnFilters>
+              <LookupFilterBeginsWith type="Enum" static="true">no</LookupFilterBeginsWith>
+              <UseFirstColumnForLookupEdits type="Enum" static="true">no</UseFirstColumnForLookupEdits>
+              <DateTimeFormat type="Enum" static="true">none</DateTimeFormat>
+              <DateOnlyFormat type="Enum" static="true">none</DateOnlyFormat>
+              <EnableStatusColumn type="Enum" static="true">yes</EnableStatusColumn>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="Microsoft.PowerApps.PowerAppsOneGrid">
+            <parameters>
+              <data-set name="Items">
+                <ViewId>{8d6bda90-9888-f011-b4cc-6045bda9c8c9}</ViewId>
+                <TargetEntityType>iotap_aiqscore</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>iotap_aiqscore_assessment_iotap_aiqassessment</RelationshipName>
+                <FilteredViewIds>{A500BB44-3702-40C4-AF8D-F1E478EBD99F},{8D6BDA90-9888-F011-B4CC-6045BDA9C8C9}</FilteredViewIds>
+              </data-set>
+              <EnableEditing type="Enum" static="true">yes</EnableEditing>
+              <DisableChildItemsEditing type="Enum" static="true">no</DisableChildItemsEditing>
+              <EnableFiltering type="Enum" static="true">yes</EnableFiltering>
+              <EnableSorting type="Enum" static="true">yes</EnableSorting>
+              <EnableGrouping type="Enum" static="true">no</EnableGrouping>
+              <EnableAggregation type="Enum" static="true">no</EnableAggregation>
+              <EnableColumnMoving type="Enum" static="true">no</EnableColumnMoving>
+              <EnableMultipleSelection type="Enum" static="true">yes</EnableMultipleSelection>
+              <EnableRangeSelection type="Enum" static="true">yes</EnableRangeSelection>
+              <EnableJumpBar type="Enum" static="true">no</EnableJumpBar>
+              <EnablePagination type="Enum" static="true">no</EnablePagination>
+              <EnableDropdownColor type="Enum" static="true">no</EnableDropdownColor>
+              <EnableStatusIcons type="Enum" static="true">yes</EnableStatusIcons>
+              <EnableTypeIcons type="Enum" static="true">no</EnableTypeIcons>
+              <NavigationTypesAllowed type="Enum" static="true">all</NavigationTypesAllowed>
+              <ReflowBehavior type="Enum" static="true">Reflow</ReflowBehavior>
+              <ShowAvatar type="Enum" static="true">yes</ShowAvatar>
+              <ShowFooter type="Enum" static="true">yes</ShowFooter>
+              <ShowColumnHeaders type="Enum" static="true">yes</ShowColumnHeaders>
+              <ContextualLookupColumnFilters type="Enum" static="true">yes</ContextualLookupColumnFilters>
+              <LookupFilterBeginsWith type="Enum" static="true">no</LookupFilterBeginsWith>
+              <UseFirstColumnForLookupEdits type="Enum" static="true">no</UseFirstColumnForLookupEdits>
+              <DateTimeFormat type="Enum" static="true">none</DateTimeFormat>
+              <DateOnlyFormat type="Enum" static="true">none</DateOnlyFormat>
+              <EnableStatusColumn type="Enum" static="true">yes</EnableStatusColumn>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

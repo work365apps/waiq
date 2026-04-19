@@ -1,0 +1,105 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "iotap_sharedcommondataserviceforapps_96af3"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        },
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        }
+      },
+      "triggers": {
+        "When_Assessment_Record_is_Created": {
+          "metadata": {
+            "operationMetadataId": "5e999140-ec43-4236-bec7-3708459f6561"
+          },
+          "type": "OpenApiConnectionWebhook",
+          "inputs": {
+            "parameters": {
+              "subscriptionRequest/message": 1,
+              "subscriptionRequest/entityname": "iotap_aiqassessment",
+              "subscriptionRequest/scope": 4,
+              "subscriptionRequest/runas": 1
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "SubscribeWebhookTrigger",
+              "connectionName": "shared_commondataserviceforapps"
+            }
+          }
+        }
+      },
+      "actions": {
+        "Retrieve_Dimensions": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "fff4817f-d639-4dbc-bc03-f5a0814700a1"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "parameters": {
+              "entityName": "iotap_aiqdimensions",
+              "$select": "iotap_aiqdimensionid",
+              "$filter": "statecode eq 0"
+            },
+            "host": {
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+              "operationId": "ListRecords",
+              "connectionName": "shared_commondataserviceforapps"
+            }
+          }
+        },
+        "Loop_thru_Dimensions": {
+          "foreach": "@outputs('Retrieve_Dimensions')?['body/value']",
+          "actions": {
+            "Create_Scores": {
+              "metadata": {
+                "operationMetadataId": "75a28d6f-7d61-4f2e-b0c1-45b5ea7ee05e"
+              },
+              "type": "OpenApiConnection",
+              "inputs": {
+                "parameters": {
+                  "entityName": "iotap_aiqscores",
+                  "item/iotap_assessment@odata.bind": "/iotap_aiqassessments(@{triggerOutputs()?['body/iotap_aiqassessmentid']})",
+                  "item/iotap_dimension@odata.bind": "/iotap_aiqdimensions(@{items('Loop_thru_Dimensions')?['iotap_aiqdimensionid']})"
+                },
+                "host": {
+                  "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps",
+                  "operationId": "CreateRecord",
+                  "connectionName": "shared_commondataserviceforapps"
+                }
+              }
+            }
+          },
+          "runAfter": {
+            "Retrieve_Dimensions": [
+              "Succeeded"
+            ]
+          },
+          "metadata": {
+            "operationMetadataId": "29d54a27-cf36-4fc0-98e2-c5dbcff86733"
+          },
+          "type": "Foreach"
+        }
+      }
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}

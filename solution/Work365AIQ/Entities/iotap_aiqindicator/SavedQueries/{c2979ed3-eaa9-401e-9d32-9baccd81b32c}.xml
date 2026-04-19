@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{c2979ed3-eaa9-401e-9d32-9baccd81b32c}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="iotap_name" select="1" icon="1" preview="1">
+        <row name="result" id="iotap_aiqindicatorid">
+          <cell name="iotap_dimension" width="102" />
+          <cell name="iotap_department" width="107" />
+          <cell name="iotap_name" width="300" />
+          <cell name="iotap_definition" width="100" />
+          <cell name="iotap_metrictype" width="109" />
+          <cell name="iotap_target" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="iotap_aiqindicator">
+          <attribute name="iotap_aiqindicatorid" />
+          <attribute name="iotap_name" />
+          <order attribute="iotap_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="iotap_dimension" />
+          <attribute name="iotap_department" />
+          <attribute name="iotap_definition" />
+          <attribute name="iotap_metrictype" />
+          <attribute name="iotap_target" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active AIQ Indicators" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

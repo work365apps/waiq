@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{557b06bf-da84-f011-b4cc-6045bdeb7526}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="F931FFE2-B873-473F-8F95-9502F0AA3F5E" name="tab_1" showlabel="false" labelid="{ad19a940-f6a1-459a-a6b7-98c3dfd74441}">
+          <labels>
+            <label description="New Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section id="0C655D4E-C6E3-424E-9AF5-71E72D30D12E" name="tab_1_column_1_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{d3e37166-69b8-4d00-88c4-8cd0ce8dd446}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="542FBFBE-0E4C-496C-8012-555DE6581923" labelid="{94a5b034-3d0b-4c79-89fc-1d7e4cbe5d28}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d472ee2c-5373-49ac-b034-3945a4224b0b}" locklevel="0" colspan="1" rowspan="1" labelid="{0ca8b0b5-67ed-4be5-b5d0-9422ef0e9499}">
+                        <labels>
+                          <label description="Assessment" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_assessment" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="iotap_assessment" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dbb0988c-4994-4f06-b02a-3b4691d19191}" locklevel="0" colspan="1" rowspan="1" labelid="{d6bd59d1-a268-4ac3-9322-d4a110de4732}">
+                        <labels>
+                          <label description="Dimension" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_dimension" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="iotap_dimension" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bcd54620-0245-4b59-8aaa-8b385378f1e9}" locklevel="0" colspan="1" rowspan="1" labelid="{553cf071-3101-4c5e-9e3c-6e532a4b1ab2}">
+                        <labels>
+                          <label description="Raw Score" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_rawscore" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="iotap_rawscore" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{bf2b1f95-7b31-44c1-90c9-1c6095b8ca61}" locklevel="0" colspan="1" rowspan="8" labelid="{a1822a3f-c5db-400b-82c8-1995822635c0}">
+                        <labels>
+                          <label description="Notes" languagecode="1033" />
+                        </labels>
+                        <control id="iotap_notes" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="iotap_notes" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="02DECBA0-3AE2-484D-A19F-C5353AF4F4F2" name="tab_1_column_2_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{c459675a-157f-4750-b368-819ae5ce3ed8}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="266FE48D-4D04-4E9A-8C5A-7DEF9A2F059B" labelid="{c0f1635c-bea3-47cd-8485-f283b333a3ca}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="46FD66EA-B686-41D9-AAE0-C565BD78EC1F" name="tab_1_column_3_section_1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{810cab6d-14d9-4eb9-a9e5-bf942e31570b}">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="07C04A4E-A482-45CC-BAB7-7FCA3CD02938" labelid="{6b2179e2-5833-405b-96d3-c5ee4724d1bb}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="AIQ Quick Create" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>
